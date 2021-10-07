@@ -1,0 +1,27 @@
+{
+  "name": "appdbdistribued",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "nodemon index.js",
+    "prod": "node index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/R-ronivaldo/appdbdistribued.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/R-ronivaldo/appdbdistribued/issues"
+  },
+  "homepage": "https://github.com/R-ronivaldo/appdbdistribued#readme",
+  "dependencies": {
+    "express": "^4.17.1",
+    "mongoose": "^6.0.9",
+    "nodemon": "^2.0.13",
+    "require-dir": "^1.2.0"
+  }
+}
